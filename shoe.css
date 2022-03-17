@@ -1,0 +1,150 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+article {
+    width: 850px;
+    border: 3px solid black;
+    margin: 20px auto 10px auto;
+    position: relative;
+    
+
+}
+
+img {
+    margin-right: 10px;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.container-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    
+    font-weight: 700;
+}
+
+.price {
+    font-weight: 700;
+    margin-left: -15px;
+  }
+
+  .free {
+      color: lightslategray;
+      font-size: .8em;
+  }
+  
+  a {
+    color: black;
+  }
+
+  a:hover {
+      text-decoration: none;
+  }
+
+  ul {
+      margin-left: -18px;
+  }
+
+  li {
+      list-style: disc;
+  }
+
+  .more {
+      margin-left: 50px;
+  }
+
+  button {
+      background-color: black;
+      color: white;
+      width: 100%;
+      
+  }
+
+  button:hover {
+    background-color: white;
+    color: black;  
+      
+  }
+
+.red {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    display:inline-block;
+    margin-right: 5px;
+}
+
+.blue {
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+    display:inline-block;
+    margin-right: 5px;
+}
+
+.green {
+    width: 25px;
+    height: 25px;
+    background-color: green;
+    display:inline-block;
+    margin-right: 5px;
+}
+
+.yellow {
+    width: 25px;
+    height: 25px;
+    background-color: yellow;
+    display:inline-block;
+    margin-right: 5px;
+}
+
+.brown {
+    width: 25px;
+    height: 25px;
+    background-color: brown;
+    display:inline-block;
+    margin-right: 5px;
+}
+
+.black {
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    display:inline-block;
+    margin-right: 5px;
+}
+
+.sale {
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 1px 8px 1px 8px;
+    position: absolute;
+    top: -40px;
+    left: -25px;
+
+}
+  
